@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="411dp"
+        android:layout_height="229dp"
+        android:background="#00BCD4"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="412dp"
+        android:layout_height="257dp"
+        android:layout_marginTop="230dp"
+        android:background="#FFEB3B"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-2dp">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="411dp"
+        android:layout_height="247dp"
+        android:layout_marginTop="484dp"
+        android:background="#4CAF50"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
